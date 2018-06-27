@@ -2,7 +2,7 @@
 -------
 1- https://alligator.io/react/axios-react/ <br>
 2- https://www.mockable.io/ <br>
-3- redux-tutorial-one-video <br>
+3- (completed)redux-tutorial-one-video  <br>
 4- category-subcategory-demo (using react) (using stub and mockapi both) <br>
 5- category-subcategory-demo (using redux) (using stub and mockapi both) <br>
 6- complete tutorial point react <br>
