@@ -1,14 +1,14 @@
 #React->
 -------
 1- https://alligator.io/react/axios-react/ <br>
-2- https://www.mockable.io/
-3- redux-tutorial-one-video
-4- category-subcategory-demo (using react) (using stub and mockapi both)
-5- category-subcategory-demo (using redux) (using stub and mockapi both)
-6- complete tutorial point react
-7- edureka.co (50 react interview question)
-8- toptal (react interview question)
-9- onlineinterviewquestions.com (react interview question)
-10- tekslate (react interview question)
-11- mindmajix (react interview question)
-12- codementor (react interview question)
+2- https://www.mockable.io/ <br>
+3- redux-tutorial-one-video <br>
+4- category-subcategory-demo (using react) (using stub and mockapi both) <br>
+5- category-subcategory-demo (using redux) (using stub and mockapi both) <br>
+6- complete tutorial point react <br>
+7- edureka.co (50 react interview question) <br>
+8- toptal (react interview question) <br>
+9- onlineinterviewquestions.com (react interview question) <br>
+10- tekslate (react interview question) <br>
+11- mindmajix (react interview question) <br>
+12- codementor (react interview question) <br>
