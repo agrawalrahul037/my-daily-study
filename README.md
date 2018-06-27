@@ -9,9 +9,9 @@ https://alligator.io/react/axios-react/
 https://www.mockable.io/ 
 
 # git code commit command
-git add .
-git commit -m "write comment here"
-git push origin
+git add . <br>
+git commit -m "write comment here" <br>
+git push origin <br>
 
 
 
