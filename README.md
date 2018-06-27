@@ -3,7 +3,8 @@ Storage of my daily learning
 
 
 # API Call in React
-https://alligator.io/react/axios-react/
+https://alligator.io/react/axios-react/ <br>
+https://jsonplaceholder.typicode.com/users
 
 # Making mock Api 
 https://www.mockable.io/ 
