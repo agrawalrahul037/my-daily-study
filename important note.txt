@@ -5,6 +5,8 @@ npm install -g create-react-app
 
 24/04/2018
 ------------
+
+
 1- JavaScript library(View in MVC; requires Flux to implement architecture)
 2- Brings HTML into JavaScript Works with the virtual DOM Server-side rendering
 3- JavaScript + JSX
