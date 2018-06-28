@@ -1,0 +1,392 @@
+immutable -> unchanging over time or unable to be changed.
+expo app
+
+npm install -g create-react-app
+
+24/04/2018
+------------
+1- JavaScript library(View in MVC; requires Flux to implement architecture)
+2- Brings HTML into JavaScript Works with the virtual DOM Server-side rendering
+3- JavaScript + JSX
+4- Stable release 16.3.1 / April 3, 2018; 14 days ago[1]
+5- Best for SPAs that update many views at a time (how's it will work for many views?)
+6- The main difference between state and props is that props are immutable. This is why the container component should define the state
+   that can be updated and changed,while the child components should only pass data from the state using props.
+7- When we need immutable data in our component, we can just add props to reactDOM.render() function in main.js and use it inside 
+   our component.
+App.jsx->
+---------
+	import React from 'react';
+	class App extends React.Component {
+	   render() {
+		  return (
+			 <div>
+				<h1>{this.props.headerProp}</h1>
+				<h2>{this.props.contentProp}</h2>
+			 </div>
+		  );
+	   }
+	}
+	export default App;
+main.js->
+---------
+	import React from 'react';
+	import ReactDOM from 'react-dom';
+	import App from './App.jsx';
+
+	ReactDOM.render(<App headerProp = "Header from props..." contentProp = "Content
+	   from props..."/>, document.getElementById('app'));
+	export default App;
+
+	
+8- Default Props (You can also set default property values directly on the component constructor instead of adding it to the 
+				  reactDom.render() element.)
+   
+    import React from 'react';
+	class App extends React.Component {
+	   render() {
+		  return (
+			 <div>
+				<h1>{this.props.headerProp}</h1>
+				<h2>{this.props.contentProp}</h2>
+			 </div>
+		  );
+	   }
+	}
+	App.defaultProps = {
+	   headerProp: "Header from props...",
+	   contentProp:"Content from props..."
+	}
+	export default App;
+	
+9- Props Types ->
+   --------------
+   App.propTypes = {
+   name: PropTypes.string,
+   propArray: PropTypes.array.isRequired,
+   propBool: PropTypes.bool.isRequired,
+   propFunc: PropTypes.func,
+   propNumber: PropTypes.number,
+   propString: PropTypes.string,
+};
+
+10- setState(), forceUpdate and ReactDOM.findDOMNode()->
+    ---------------------------------------------------
+   10.1->setState() method is used to update the state of the component.
+	import React from 'react';
+	class App extends React.Component {
+   	constructor() {
+      	super();
+		
+      	this.state = {
+        	 data: []
+     	 }
+	
+      	this.setStateHandler = this.setStateHandler.bind(this);
+   	};
+   	setStateHandler() {
+      	var item = "setState..."
+      	var myArray = [];
+	  myArray.push(item);
+      	this.setState({data: myArray})
+   	};
+   	render() {
+      	return (
+         	<div>
+            	<button onClick = {this.setStateHandler}>SET STATE</button>
+            	<h4>State Array: {this.state.data}</h4>
+         	</div>
+      	);
+   	}
+	}
+	export default App;
+
+   10.2->Force Update (Sometimes we might want to update the component manually. This can be achieved using the forceUpdate() method.)
+         
+	import React from 'react';
+	class App extends React.Component {
+	   constructor() {
+		  super();
+		  this.forceUpdateHandler = this.forceUpdateHandler.bind(this);
+	   };
+	   forceUpdateHandler() {
+		  this.forceUpdate();
+	   };
+	   render() {
+		  return (
+			 <div>
+				<button onClick = {this.forceUpdateHandler}>FORCE UPDATE</button>
+				<h4>Random number: {Math.random()}</h4>
+			 </div>
+		  );
+	   }
+	}
+	export default App;
+	
+11- Find Dom Node (For DOM manipulation, we can use ReactDOM.findDOMNode() method. First we need to import react-dom.)
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+class App extends React.Component {
+   constructor() {
+      super();
+      this.findDomNodeHandler = this.findDomNodeHandler.bind(this);
+   };
+   findDomNodeHandler() {
+      var myDiv = document.getElementById('myDiv');
+      ReactDOM.findDOMNode(myDiv).style.color = 'green';
+   }
+   render() {
+      return (
+         <div>
+            <button onClick = {this.findDomNodeHandler}>FIND DOME NODE</button>
+            <div id = "myDiv">NODE</div>
+         </div>
+      );
+   }
+}
+export default App;
+
+
+12- LifeCycle->
+	------------
+	1- componentWillMount (is executed before rendering, on both the server and the client side.)
+	2- componentDidMount (is executed after the first render only on the client side. This is where AJAX requests and DOM or state updates should occur. This method is also used for integration with other JavaScript frameworks and any functions with delayed execution such as setTimeout or setInterval.   We are using it to update the state so we can trigger the other lifecycle methods.)
+	3- componentWillReceiveProps (props are updated before another render is called)
+	4- shouldComponentUpdate (This will determine if the component will be updated or not. This is set to true by default. If you are sure that the component doesn't need to render after state or props are updated, you can return false value)
+	5- componentWillUpdate (is called just before rendering.)
+	6- componentDidUpdate (is called just after rendering.)
+	7- componentWillUnmount (is called after the component is unmounted from the dom. We are unmounting our component in main.js.)
+	
+13- Form Element (We can also achieve two way data binding using states (this.setState({data: e.target.                 value});))
+	import React from 'react';
+	class App extends React.Component {
+	   constructor(props) {
+		  super(props);
+		  
+		  this.state = {
+			 data: 'Initial data...'
+		  }
+		  this.updateState = this.updateState.bind(this);
+	   };
+	   updateState(e) {
+		  this.setState({data: e.target.value});
+	   }
+	   render() {
+		  return (
+			 <div>
+				<input type = "text" value = {this.state.data} 
+				   onChange = {this.updateState} />
+				<input type = "text" value = {this.state.data} 
+				   onChange = {this.updateState} />
+				<h4>{this.state.data}</h4>
+			 </div>
+		  );
+	   }
+	}
+	export default App;
+
+14- Refs (The ref is used to return a reference to the element)
+	import React from 'react';
+	import ReactDOM from 'react-dom';
+	class App extends React.Component {
+	   constructor(props) {
+		  super(props);
+			
+		  this.state = {
+			 data: ''
+		  }
+		  this.updateState = this.updateState.bind(this);
+		  this.clearInput = this.clearInput.bind(this);
+	   };
+	   updateState(e) {
+		  this.setState({data: e.target.value});
+	   }
+	   clearInput() {
+		  this.setState({data: ''});
+		  ReactDOM.findDOMNode(this.refs.myInput).focus();
+	   }
+	   render() {
+		  return (
+			 <div>
+				<input value = {this.state.data} onChange = {this.updateState} 
+				   ref = "myInput"></input>
+				<button onClick = {this.clearInput}>CLEAR</button>
+				<h4>{this.state.data}</h4>
+			 </div>
+		  );
+	   }
+	}
+	export default App;
+	
+15- Keys-> (React keys are useful when working with dynamically created components or when your lists are altered by the 			 users. Setting the key value will keep your components uniquely identified after the change)
+	import React from 'react';
+	class App extends React.Component {
+	   constructor() {
+		  super();
+			
+		  this.state = {
+			 data:[
+				{
+				   component: 'First...',
+				   id: 1
+				},
+				{
+				   component: 'Second...',
+				   id: 2
+				},
+				{
+				   component: 'Third...',
+				   id: 3
+				}
+			 ]
+		  }
+	   }
+	   render() {
+		  return (
+			 <div>
+				<div>
+				   {this.state.data.map((dynamicComponent, i) => <Content 
+					  key = {i} componentData = {dynamicComponent}/>)}
+				</div>
+			 </div>
+		  );
+	   }
+	}
+	class Content extends React.Component {
+	   render() {
+		  return (
+			 <div>
+				<div>{this.props.componentData.component}</div>
+				<div>{this.props.componentData.id}</div>
+			 </div>
+		  );
+	   }
+	}
+	export default App;
+	
+	
+16 - Routing->
+     ---------
+	import React, { Component } from 'react';
+	import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+	import Home from './Home';
+	import Login from './Login';
+
+	class App extends Component {
+	   render() {
+		  return (
+			 <Router>
+				<div>
+				   <h2>Welcome to React Router Tutorial</h2>
+				   <ul>
+					  <li><Link to={'/'}>Home</Link></li>
+					  <li><Link to={'/Login1'}>Login</Link></li>
+				   </ul>
+				   <hr />
+				   
+				   <Switch>
+					  <Route exact path='/' component={Home} />
+					  <Route exact path='/Login1' component={Login} />
+				   </Switch>
+				</div>
+			 </Router>
+		  );
+	   }
+	}
+	export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Questions->
+------------
+1- What is Flux?
+2- What is virtual dom? how's it's work?
+3- How's server side rendering work?
+4- Can we use HTML inplace of JSX?
+5- What is babel plugins?
+6- JSX is also type-safe and most of the errors can be caught during compilation.(What do you mean by compilation?)
+7- Where the location of index.js which is available in localhost:8080 at the time of ctrl+u?
+8- How we can debug App.jsx and main.js in browser?
+9- this.state.data.map((person, i) (what is map function and how's it works?)
+10- <TableRow key = {i} data = {person1} />)  (why we use key = {i} Inside ? Even looping works without 	setting key) Search any example which can not work without using key? 
+11- if we can change any style using directly access node then what is the use of react DOM?
+    need to read findDOMNode method in deep
+   findDomNodeHandler() {
+      //var myDiv = document.getElementById('myDiv');
+     // ReactDOM.findDOMNode(myDiv).style.color = 'green';
+	 document.getElementById('myDiv').style.color = 'green';
+   }
+12- What is mounting and unmounting?
+13- When to make App.js and when to make App.jsx in reactjs? (you can also check it on tutorialpoint routing example)
+14- Can we use anchor tag inplace of <Link> which we use inside Router
+15 - Deep dive into routing attribute?
+16 - Different way of using arrow operator? [(e) => this.handleClick(e)] 
+17 - Use of const [const node = this.refs.input]
+18 - react vs flux vs redux?
+19 - Where to use [module.exports = {};] 
+20- what is react boilerplate?
+21- let vs var vs const?
+22- ...state means in redux? (basically ... means)
+23- what is lodash module? (import omit from 'lodash/object/omit')  
+24- why we pass props inside constructor and super?
+constructor(props) {
+    super(props);
+    this.state = {
+      greetUser1: "Abhishek Saxena"
+    }
+  }
+ 
+
+Important Link->
+----------------
+
+https://www.valentinog.com/blog/react-redux-tutorial-beginners/
+https://hackernoon.com/a-basic-react-redux-introductory-tutorial-adcc681eeb5e
+https://scotch.io/tutorials/creating-a-simple-shopping-cart-with-react-js-and-flux          (Good Flux Example)
+https://scotch.io/tutorials/getting-to-know-flux-the-react-js-architecture	
+https://scotch.io/tutorials/learning-react-getting-started-and-concepts#the-basics
+https://scotch.io/tutorials/build-a-real-time-twitter-stream-with-node-and-react-js
+https://medium.com/@tkssharma/facebooks-flux-vs-redux-d02b5348cc17                          (Good Redux Example)
+https://redux.js.org/basics/reducers
+https://github.com/paularmstrong/normalizr
+
+
+
+
+important Note->
+----------------
+
+1- Flux is a pattern and Redux is a library.
+2- As per my understanding redux is for solving the complexity of facebook Flux.
+
+
+Setting up new react project->
+------------------------------
+
+npx create-react-app my-app
+cd my-app
+npm start
+
+
+Youtube Links->
+---------------
+https://www.youtube.com/watch?v=kJeXr1K3nyg (0)
+https://www.youtube.com/watch?v=OSSpVLpuVWA (1)
