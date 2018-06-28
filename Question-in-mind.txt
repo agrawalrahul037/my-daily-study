@@ -1,0 +1,1 @@
+-> Can we add multiple component in app.js in reactjs
