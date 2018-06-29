@@ -16,6 +16,7 @@ npm install -g create-react-app
    that can be updated and changed,while the child components should only pass data from the state using props.
 7- When we need immutable data in our component, we can just add props to reactDOM.render() function in main.js and use it inside 
    our component.
+8- we write states outside the render method and inside the constructor.
 App.jsx->
 ---------
 	import React from 'react';
