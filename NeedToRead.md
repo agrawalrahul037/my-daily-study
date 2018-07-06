@@ -14,3 +14,9 @@
 12- codementor (react interview question) <br>
 13- redux_friendList_demo_1.0 <br>
 14- Form with validation in react <br>
+https://spin.atomicobject.com/2017/06/07/react-state-vs-redux-state/              <br>
+https://medium.com/netscape/component-state-vs-redux-store-1eb0c929277            <br>
+https://medium.com/backticks-tildes/setting-up-a-redux-project-with-create-react-app-e363ab2329b8           <br>
+https://hackernoon.com/how-create-react-redux-app-structure-helps-you-to-start-a-project-faster-cf564c64689c        <br>
+
+
