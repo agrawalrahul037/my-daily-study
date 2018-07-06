@@ -19,4 +19,7 @@ https://medium.com/netscape/component-state-vs-redux-store-1eb0c929277          
 https://medium.com/backticks-tildes/setting-up-a-redux-project-with-create-react-app-e363ab2329b8           <br>
 https://hackernoon.com/how-create-react-redux-app-structure-helps-you-to-start-a-project-faster-cf564c64689c        <br>
 
+# Advance Structure
+https://medium.com/@alexmngn/how-to-better-organize-your-react-applications-2fd3ea1920f1
+https://hackernoon.com/the-100-correct-way-to-structure-a-react-app-or-why-theres-no-such-thing-3ede534ef1ed
 
