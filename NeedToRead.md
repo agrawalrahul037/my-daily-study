@@ -20,7 +20,7 @@ https://medium.com/backticks-tildes/setting-up-a-redux-project-with-create-react
 https://hackernoon.com/how-create-react-redux-app-structure-helps-you-to-start-a-project-faster-cf564c64689c        <br>
 
 # Advance Structure
-(Refer for react code structure)https://daveceddia.com/react-project-structure/
-https://medium.com/@alexmngn/how-to-better-organize-your-react-applications-2fd3ea1920f1
+(Refer for react code structure)https://daveceddia.com/react-project-structure/     <br>
+https://medium.com/@alexmngn/how-to-better-organize-your-react-applications-2fd3ea1920f1     <br>
 https://hackernoon.com/the-100-correct-way-to-structure-a-react-app-or-why-theres-no-such-thing-3ede534ef1ed
 
