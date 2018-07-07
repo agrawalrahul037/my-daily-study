@@ -370,7 +370,8 @@ https://scotch.io/tutorials/learning-react-getting-started-and-concepts#the-basi
 https://scotch.io/tutorials/build-a-real-time-twitter-stream-with-node-and-react-js
 https://medium.com/@tkssharma/facebooks-flux-vs-redux-d02b5348cc17                          (Good Redux Example)
 https://redux.js.org/basics/reducers
-https://github.com/paularmstrong/normalizr
+https://github.com/paularmstrong/normalizr                 <br>
+https://reactjs.org/docs/faq-ajax.html
 
 
 
