@@ -15,6 +15,8 @@ git commit -m "write comment here" <br>
 git push origin <br>
 
 ---------------------------------------
+git add --all  : for adding all untracked files 
+
 Git pull:when you do a git pull, it gets all the changes from the remote or central repository and attaches it to your corresponding branch in your local repository.
 git pull = git fetch + git merge
 
