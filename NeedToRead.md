@@ -24,3 +24,10 @@ https://hackernoon.com/how-create-react-redux-app-structure-helps-you-to-start-a
 https://medium.com/@alexmngn/how-to-better-organize-your-react-applications-2fd3ea1920f1     <br>
 https://hackernoon.com/the-100-correct-way-to-structure-a-react-app-or-why-theres-no-such-thing-3ede534ef1ed
 
+
+# Other Links to read
+
+https://www.mindtools.com/pages/article/newCDV_85.htm         <br>
+https://www.techrepublic.com/blog/10-things/10-ways-to-survive-office-politics/       <br>
+https://www.linkedin.com/pulse/secret-surviving-first-90-days-your-new-job-ian-callum   <br>
+
