@@ -6,7 +6,7 @@ Storage of my daily learning
 https://alligator.io/react/axios-react/ <br>
 https://jsonplaceholder.typicode.com/users
 
-# Share Data between component
+# Share Data between component in React
 https://medium.com/@ruthmpardee/passing-data-between-react-components-103ad82ebd17
 https://www.javascriptstuff.com/component-communication/
 
