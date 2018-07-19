@@ -6,6 +6,10 @@ Storage of my daily learning
 https://alligator.io/react/axios-react/ <br>
 https://jsonplaceholder.typicode.com/users
 
+# Share Data between component
+https://medium.com/@ruthmpardee/passing-data-between-react-components-103ad82ebd17
+https://www.javascriptstuff.com/component-communication/
+
 # Making mock Api 
 https://www.mockable.io/ 
 
