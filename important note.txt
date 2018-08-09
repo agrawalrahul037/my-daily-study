@@ -357,6 +357,7 @@ constructor(props) {
     }
   }
 25- State vs Props
+26- Array Map, Filter and Reduce in JS 
  
 
 Important Link->
