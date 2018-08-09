@@ -358,6 +358,7 @@ constructor(props) {
   }
 25- State vs Props
 26- Array Map, Filter and Reduce in JS 
+26 Smart Vs Dump Component
  
 
 Important Link->
