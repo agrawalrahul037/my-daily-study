@@ -35,10 +35,10 @@ Git fetch: when you do a git fetch, it gets all the changes from the remote repo
 
 
 # mkdir creating problem
-when we use mkdir -p src/js/constants it will show error "The syntax of the command is incorrect." (forward slash will give error in windows)
+when we use mkdir -p src/js/constants it will show error "The syntax of the command is incorrect." (forward slash will give error in windows) <br>
 So use backslash it will work in windows like- mkdir -p src\js\constants 
 
 # How can I create an empty .html and .js file in windows command line?
-type NUL > test.html
+type NUL > test.html <br>
 type NUL > test.js
 
