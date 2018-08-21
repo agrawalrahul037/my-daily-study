@@ -42,3 +42,29 @@ So use backslash it will work in windows like- mkdir -p src\js\constants
 type NUL > test.html <br>
 type NUL > test.js
 
+# Deploy build folder on xampp
+
+C:\xampp\tomcat\webapps\build <br>
+
+JSON should be like this before making build <br>
+
+{
+  "name": "react-category-subcategory-demo",
+  <b>"homepage":"http://localhost:8080/build/",</b>
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
+
+
