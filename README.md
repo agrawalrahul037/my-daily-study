@@ -48,7 +48,8 @@ C:\xampp\tomcat\webapps\build <br>
 
 JSON should be like this before making build <br>
 
-<code>{
+```json
+{
   "name": "react-category-subcategory-demo",
   <b>"homepage":"http://localhost:8080/build/",</b>
   "version": "0.1.0",
@@ -65,6 +66,7 @@ JSON should be like this before making build <br>
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
-}</code>
+}
+```
 
 
