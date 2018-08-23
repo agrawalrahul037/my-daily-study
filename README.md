@@ -78,10 +78,15 @@ serve -s build  <br>
 
 # Add image in README.md file
 
-{::nomarkdown}
+"
 
 ![local node server image](https://github.com/agrawalrahul037/my-daily-study/blob/master/images/node-local-server.PNG "Optional title")
 
 <img src="./images/node-local-server.PNG" alt="node local server screen"/>
 
-{:/}
+"
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
