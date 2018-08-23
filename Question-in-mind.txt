@@ -5,3 +5,4 @@
 -> What is webpack-dev-server? and how's it works?
 -> What is difference between npm start vs npm run start?
 -> How's internally package.json works. (How's build command build the all folder)?
+-> What is the use of webpack.config.js and why it's not show in the normal react and redux simple installation process?
