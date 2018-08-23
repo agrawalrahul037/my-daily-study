@@ -27,6 +27,7 @@ https://hackernoon.com/the-100-correct-way-to-structure-a-react-app-or-why-there
 
 # Other Links to read
 
+https://developers.google.com/web/progressive-web-apps/       <br>
 https://www.mindtools.com/pages/article/newCDV_85.htm         <br>
 https://www.techrepublic.com/blog/10-things/10-ways-to-survive-office-politics/       <br>
 https://www.linkedin.com/pulse/secret-surviving-first-90-days-your-new-job-ian-callum   <br>
