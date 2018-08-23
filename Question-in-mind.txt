@@ -1,3 +1,6 @@
 -> Can we add multiple component in app.js in reactjs
 -> Pull vs Fetch in git
 -> smart vs dump component
+-> combineReducers
+-> What is webpack-dev-server? and how's it works?
+-> What is difference between npm start vs npm run start
