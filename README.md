@@ -76,3 +76,4 @@ serve -s build  <br>
 
 ![local node server image](https://github.com/agrawalrahul037/my-daily-study/blob/master/images/node-local-server.PNG "Optional title")
 
+<img src="./images/node-local-server.PNG" alt="node local server screen"/>
