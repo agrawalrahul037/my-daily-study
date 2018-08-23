@@ -74,5 +74,5 @@ JSON should be like this before making build <br>
 npm install -g serve   <br>
 serve -s build  <br>
 
-![local node server image](http://full/path/to/img.jpg "Optional title")
+![local node server image](https://github.com/agrawalrahul037/my-daily-study/blob/master/images/node-local-server.PNG "Optional title")
 
