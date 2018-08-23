@@ -3,4 +3,5 @@
 -> smart vs dump component
 -> combineReducers
 -> What is webpack-dev-server? and how's it works?
--> What is difference between npm start vs npm run start
+-> What is difference between npm start vs npm run start?
+-> How's internally package.json works. (How's build command build the all folder)?
