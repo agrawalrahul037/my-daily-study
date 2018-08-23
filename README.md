@@ -69,11 +69,17 @@ JSON should be like this before making build <br>
 }
 ```
 
-# Deploy code on local node srver and test build
+# Deploy code on local node server and test build
 
 npm install -g serve   <br>
 serve -s build  <br>
 
+<img src="./images/node-local-server.PNG" alt="node local server screen"/>
+
+# Add image in README.md file
+
+<code>
 ![local node server image](https://github.com/agrawalrahul037/my-daily-study/blob/master/images/node-local-server.PNG "Optional title")
 
 <img src="./images/node-local-server.PNG" alt="node local server screen"/>
+</code>
