@@ -1,3 +1,4 @@
+-> mapStateToProps, mapDispatchToProps (How's it works?)
 -> Can we add multiple component in app.js in reactjs
 -> Pull vs Fetch in git
 -> smart vs dump component
