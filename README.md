@@ -83,3 +83,8 @@ serve -s build  <br>
 
 <img src="./images/node-local-server.PNG" alt="node local server screen"/>
 ```
+# change default 3000 port in create-react-app
+
+we need to change in package.json and we will set port here
+
+"start": "set PORT=3001 && react-scripts start",
