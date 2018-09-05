@@ -34,3 +34,6 @@ https://www.mindtools.com/pages/article/newCDV_85.htm         <br>
 https://www.techrepublic.com/blog/10-things/10-ways-to-survive-office-politics/       <br>
 https://www.linkedin.com/pulse/secret-surviving-first-90-days-your-new-job-ian-callum   <br>
 
+# recommended-react-typescript-libraries
+
+https://decembersoft.com/posts/recommended-react-typescript-libraries/
