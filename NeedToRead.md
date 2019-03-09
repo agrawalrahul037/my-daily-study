@@ -6,7 +6,7 @@
 4- category-subcategory-demo (using react) (using stub and mockapi both) <br>
 5- category-subcategory-demo (using redux) (using stub and mockapi both) <br>
 6- complete tutorial point react <br>
-7- edureka.co (50 react interview question) <br>
+7- https://www.edureka.co/blog/interview-questions/react-interview-questions/ (50 react interview question) <br>
 8- toptal (react interview question) <br>
 9- onlineinterviewquestions.com (react interview question) <br>
 10- tekslate (react interview question) <br>
