@@ -18,6 +18,7 @@ https://spin.atomicobject.com/2017/06/07/react-state-vs-redux-state/            
 https://medium.com/netscape/component-state-vs-redux-store-1eb0c929277            <br>
 https://medium.com/backticks-tildes/setting-up-a-redux-project-with-create-react-app-e363ab2329b8           <br>
 https://hackernoon.com/how-create-react-redux-app-structure-helps-you-to-start-a-project-faster-cf564c64689c        <br>
+15- https://medium.com/@kvosswinkel/is-javascript-synchronous-or-asynchronous-what-the-hell-is-a-promise-7aa9dd8f3bfb
 
 # Advance Structure
 (Refer for react code structure)https://daveceddia.com/react-project-structure/     <br>
