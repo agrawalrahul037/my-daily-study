@@ -37,4 +37,10 @@ https://www.linkedin.com/pulse/secret-surviving-first-90-days-your-new-job-ian-c
 
 # recommended-react-typescript-libraries
 
-https://decembersoft.com/posts/recommended-react-typescript-libraries/
+https://decembersoft.com/posts/recommended-react-typescript-libraries/   <br>
+
+# Speed Considerations
+
+jsPerf is a great website for testing the speed of different JavasScript methods and functions.
+
+
