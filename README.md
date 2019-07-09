@@ -88,3 +88,8 @@ serve -s build  <br>
 we need to change in package.json and we will set port here
 
 "start": "set PORT=3001 && react-scripts start",
+
+
+# Arrow function Usage
+
+<img src="./images/node-local-server.PNG" alt="node local server screen"/>
