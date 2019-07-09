@@ -92,4 +92,4 @@ we need to change in package.json and we will set port here
 
 # Arrow function Usage
 
-<img src="./images/node-local-server.PNG" alt="node local server screen"/>
+<img src="./images/arrowFunction.png" alt="arrow function example"/>
