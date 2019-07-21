@@ -4,7 +4,7 @@ https://www.mocky.io/
 
 
 # fetch vs axios
-
+    ```javascript
     fetch("http://www.mocky.io/v2/5d348f312e00008138a6b7b2").then(response => {
       return response.json();
     }).then(myjson => {
@@ -18,4 +18,5 @@ https://www.mocky.io/
         data: response.data
        })
     })
+    ```
 
