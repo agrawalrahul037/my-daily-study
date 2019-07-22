@@ -6,11 +6,11 @@
 5- git using command prompt <br>
 6- test cases (jest/jasmine/karma) <br>
 
-https://scotch.io/tutorials/setting-up-webpack-for-any-project
-https://bitwiser.in/2018/02/22/setup-javascript-webpack-project.html
-https://hackernoon.com/lets-start-with-webpack-4-91a0f1dba02e
-https://hackernoon.com/webpack-3-quickstarter-configure-webpack-from-scratch-30a6c394038a
-https://hackernoon.com/webpack-3-quickstarter-configure-webpack-from-scratch-30a6c394038a
+https://scotch.io/tutorials/setting-up-webpack-for-any-project <br>
+https://bitwiser.in/2018/02/22/setup-javascript-webpack-project.html <br>
+https://hackernoon.com/lets-start-with-webpack-4-91a0f1dba02e <br>
+https://hackernoon.com/webpack-3-quickstarter-configure-webpack-from-scratch-30a6c394038a <br>
+https://hackernoon.com/webpack-3-quickstarter-configure-webpack-from-scratch-30a6c394038a <br>
 
 #React->
 -------
