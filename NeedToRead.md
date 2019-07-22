@@ -1,10 +1,10 @@
 # Need deep knowledge of below topics
-1- webpack
-2- babel
-3- yarn
-4- package.json
-5- git using command prompt
-6- test cases (jest/jasmine/karma)
+1- webpack <br>
+2- babel <br>
+3- yarn <br>
+4- package.json <br>
+5- git using command prompt <br>
+6- test cases (jest/jasmine/karma) <br>
 
 https://scotch.io/tutorials/setting-up-webpack-for-any-project
 https://bitwiser.in/2018/02/22/setup-javascript-webpack-project.html
