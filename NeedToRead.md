@@ -1,3 +1,17 @@
+# Need deep knowledge of below topics
+1- webpack
+2- babel
+3- yarn
+4- package.json
+5- git using command prompt
+6- test cases (jest/jasmine/karma)
+
+https://scotch.io/tutorials/setting-up-webpack-for-any-project
+https://bitwiser.in/2018/02/22/setup-javascript-webpack-project.html
+https://hackernoon.com/lets-start-with-webpack-4-91a0f1dba02e
+https://hackernoon.com/webpack-3-quickstarter-configure-webpack-from-scratch-30a6c394038a
+https://hackernoon.com/webpack-3-quickstarter-configure-webpack-from-scratch-30a6c394038a
+
 #React->
 -------
 1- https://alligator.io/react/axios-react/ <br>
