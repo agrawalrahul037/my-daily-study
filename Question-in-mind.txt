@@ -1,6 +1,7 @@
 -> mapStateToProps, mapDispatchToProps (How's it works?)
 -> Can we add multiple component in app.js in reactjs
 -> Pull vs Fetch in git
+-> how's upstream works in git
 -> smart vs dump component
 -> combineReducers
 -> What is webpack-dev-server? and how's it works?
