@@ -6,6 +6,7 @@
 5- git using command prompt <br>
 6- test cases (jest/jasmine/karma) <br>
 
+https://ccoenraets.github.io/es6-tutorial/setup-webpack/ <br>
 https://scotch.io/tutorials/setting-up-webpack-for-any-project <br>
 https://bitwiser.in/2018/02/22/setup-javascript-webpack-project.html <br>
 https://hackernoon.com/lets-start-with-webpack-4-91a0f1dba02e <br>
