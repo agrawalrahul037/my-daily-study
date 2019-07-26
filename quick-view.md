@@ -1,5 +1,5 @@
 # Check if the user is scrolled to the bottom of the page
-
+   ```javascript
    window.onscroll = () => {
       var d = document.documentElement;
       var offset = Math.floor(d.scrollTop + window.innerHeight);
@@ -9,6 +9,7 @@
         console.log('At the bottom');
       }
     }
+    ```
 
 # How to make mock api url
 
