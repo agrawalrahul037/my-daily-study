@@ -1,3 +1,11 @@
+# Setting up new react project
+
+```javascript
+npx create-react-app my-app
+cd my-app
+npm start
+```
+
 # Add local Repository on GitHub using git command 
 
 1- Create a new repository on GitHub. To avoid errors, do not initialize the new repository with README, license, or gitignore files
