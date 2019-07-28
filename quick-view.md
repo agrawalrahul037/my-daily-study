@@ -4,6 +4,9 @@
 npx create-react-app my-app
 cd my-app
 npm start
+
+OR
+npm install -g create-react-app
 ```
 
 # Add local Repository on GitHub using git command 
