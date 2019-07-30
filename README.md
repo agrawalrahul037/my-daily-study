@@ -88,3 +88,14 @@ serve -s build  <br>
 we need to change in package.json and we will set port here
 
 "start": "set PORT=3001 && react-scripts start",
+
+# Some Daily used command to work with command prompt in windows
+```javascript
+mkdir "folder name" \\ creating folder
+cd "folder name"   \\ Go inside that folder
+cd..  \\ move back to one folder
+cd\    \\ go to root of the drive
+type nul >> your_file.txt //creating new file
+>   Creates a new file
+>>  Preserves content of the file 
+```
