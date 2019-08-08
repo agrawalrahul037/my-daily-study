@@ -1,3 +1,14 @@
+# Build a React project from scratch using Webpack 4 and Babel and bootstrap
+
+```javascript
+  // implementing Babel webpack
+  https://hackernoon.com/how-to-build-a-react-project-from-scratch-using-webpack-4-and-babel-56d4a26afd32
+  // implementing bootstrap 4
+  https://medium.com/@dinyangetoh/getting-started-with-react-webpack-and-bootstrap-27e95ff634ef
+  //Extracting bootstrap files from bundle file
+  https://medium.com/riow/webpack-separate-css-5d1c1e862d93
+```  
+
 # Setting up new react project
 
 ```javascript
