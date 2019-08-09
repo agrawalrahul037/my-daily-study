@@ -1,3 +1,9 @@
+# When to use react context-api AND when to use redux
+
+conclusion-> when application is large then use redux and (when application scope is fix and for small application use context-api)  
+
+https://daveceddia.com/context-api-vs-redux/
+
 # Build a React project from scratch using Webpack 4 and Babel and bootstrap
 
 ```javascript
