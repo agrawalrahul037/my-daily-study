@@ -1,3 +1,7 @@
+# Split bundling in react-redux project
+
+https://github.com/maitojepoy/react-redux-loadables
+
 # When to use react context-api AND when to use redux
 
 conclusion-> when application is large then use redux and (when application scope is fix and for small application use context-api)  
