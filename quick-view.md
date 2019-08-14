@@ -1,3 +1,45 @@
+# Change default 8080 port to any port using webpack.config.js file
+
+  devServer: {
+	port: 4000,
+  }
+  
+  complete webpack.config.js file below
+  ```javascript
+  const path = require("path");
+  const HtmlWebpackPlugin = require("html-webpack-plugin");
+
+module.exports = {
+  entry: "./src/index.js",
+  output: {
+    path: path.join(__dirname, "/dist"),
+    filename: "index-bundle.js"
+  },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: ["babel-loader"]
+      },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"]
+      }
+    ]
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "./src/index.html"
+    })
+  ],
+  devServer: {
+	port: 4000,
+  }
+ };
+```
+  
+  
 # Split bundling in react-redux project
 
 https://github.com/maitojepoy/react-redux-loadables
