@@ -1,3 +1,126 @@
+# setting up new react project using webpack and babel 
+// make any project folder
+mkdir my-webpack-project
+
+// initialize package.json
+npm init
+
+// we will install webpack and webpack-cli for module bundler and We installed webpack-cli so that we 
+// can use webpack in the command line.
+npm install webpack webpack-cli --save-dev
+
+//install react
+npm install react react-dom --save
+
+//We need Babel to transpile ES6 and JSX to ES5.
+//babel-core: Transforms ES6 code to ES5
+//babel-loader: Webpack helper to transpile code, given the the preset.
+//babel-preset-env: Preset which helps babel to convert ES6, ES7 and ES8 code to ES5.
+//babel-preset-react: Preset which Transforms JSX to JavaScript.
+npm install @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
+
+
+//Create an index.js file inside root of the /src folder. This file will be the entry point to our app.
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./components/App.js";
+
+ReactDOM.render(<App />, document.getElementById("root"));
+
+
+//Create an index.html file inside root of the /src folder and add following code inside it.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>my project</title>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>
+
+//Create a webpack.config.js in the root directory of the project
+```javascript
+const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+
+module.exports = {
+  entry: "./src/index.js",
+  output: {
+    path: path.join(__dirname, "/dist"),
+    filename: "index-bundle.js"
+  },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: ["babel-loader"]
+      },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"]
+      }
+    ]
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "./src/index.html"
+    })
+  ]
+ };
+
+//Here babel-loader is used to load our JSX/JavaScript files and css-loader is used to load and bundle all of the CSS files 
+// into one file and style-loader will add all of the styles inside the style tag of the document.
+npm install css-loader style-loader --save-dev
+
+
+// Create an App.js file inside the components folder of the src folder with the following contents inside of it.
+import React, { Component } from "react";
+import '../styles/App.css';
+class App extends Component {
+    render() {
+        return (
+            <div>
+                <h1>My React App! </h1>
+                <p className="text-hide">Hello one1234</p>
+				<img src="media/images/abc.png"></img>
+            </div>
+        );
+    }
+}
+export default App;
+```
+
+//Create an App.css file inside the styles folder of the src folder with the following contents inside of it.
+h1 {
+    color: #27aedb;
+    text-align: center;
+}
+
+// Now we also need to install html-webpack-plugin, this plugin generates an HTML file, injects the script inside the
+// HTML file and writes this file to dist/index.html
+npm install html-webpack-plugin --save-dev
+
+
+// Install webpack-dev-server as a dev-dependency as to auto refresh changes 
+npm install webpack-dev-server --save-dev
+
+// And change the package.json start script like below:
+//I have added two flags --open and --hot which opens and refreshes the web page whenever any change is made to components
+"start": "webpack-dev-server --mode development --open --hot"
+"build": "webpack --mode production"
+
+//Now run the below command in the terminal:
+
+npm start
+
+// And for build run below command
+
+npm run build
 # Change default 8080 port to any port using webpack.config.js file
 
   devServer: {
