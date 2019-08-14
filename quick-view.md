@@ -1,32 +1,32 @@
 # setting up new react project using webpack and babel 
-// make any project folder
+make any project folder
 ```javascript
 mkdir my-webpack-project
 ```
-// initialize package.json
+initialize package.json
 ```javascript
 npm init
 ```
-// we will install webpack and webpack-cli for module bundler and We installed webpack-cli so that we  <br>
-// can use webpack in the command line.
+we will install webpack and webpack-cli for module bundler and We installed webpack-cli so that we  <br>
+can use webpack in the command line.
 ```javascript
 npm install webpack webpack-cli --save-dev
 ```
 
-//install react
+install react
 ```javascript
 npm install react react-dom --save
 ```
-//We need Babel to transpile ES6 and JSX to ES5.
-//babel-core: Transforms ES6 code to ES5
-//babel-loader: Webpack helper to transpile code, given the the preset.
-//babel-preset-env: Preset which helps babel to convert ES6, ES7 and ES8 code to ES5.
-//babel-preset-react: Preset which Transforms JSX to JavaScript.
+We need Babel to transpile ES6 and JSX to ES5. <br> 
+babel-core: Transforms ES6 code to ES5 <br>
+babel-loader: Webpack helper to transpile code, given the the preset. <br>
+babel-preset-env: Preset which helps babel to convert ES6, ES7 and ES8 code to ES5. <br>
+babel-preset-react: Preset which Transforms JSX to JavaScript. <br>
 ```javascript
 npm install @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
 ```
 
-//Create an index.js file inside root of the /src folder. This file will be the entry point to our app.
+Create an index.js file inside root of the /src folder. This file will be the entry point to our app.
 ```javascript
 import React from "react";
 import ReactDOM from "react-dom";
@@ -35,7 +35,7 @@ import App from "./components/App.js";
 ReactDOM.render(<App />, document.getElementById("root"));
 ```
 
-//Create an index.html file inside root of the /src folder and add following code inside it.
+Create an index.html file inside root of the /src folder and add following code inside it.
 ```javascript
 <!DOCTYPE html>
 <html lang="en">
@@ -50,7 +50,7 @@ ReactDOM.render(<App />, document.getElementById("root"));
 </body>
 </html>
 ```
-//Create a webpack.config.js in the root directory of the project
+Create a webpack.config.js in the root directory of the project
 ```javascript
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
@@ -81,13 +81,13 @@ module.exports = {
   ]
  };
 
-//Here babel-loader is used to load our JSX/JavaScript files and css-loader is used to load and bundle all of the CSS files <br>
-// into one file and style-loader will add all of the styles inside the style tag of the document.
+Here babel-loader is used to load our JSX/JavaScript files and css-loader is used to load and bundle all of the CSS files <br>
+into one file and style-loader will add all of the styles inside the style tag of the document.
 ```javascript
 npm install css-loader style-loader --save-dev
 ```
 
-// Create an App.js file inside the components folder of the src folder with the following contents inside of it.
+Create an App.js file inside the components folder of the src folder with the following contents inside of it.
 ```javascript
 import React, { Component } from "react";
 import '../styles/App.css';
@@ -105,34 +105,34 @@ class App extends Component {
 export default App;
 ```
 
-//Create an App.css file inside the styles folder of the src folder with the following contents inside of it.
+Create an App.css file inside the styles folder of the src folder with the following contents inside of it.
 ```javascript
 h1 {
     color: #27aedb;
     text-align: center;
 }
 ```
-// Now we also need to install html-webpack-plugin, this plugin generates an HTML file, injects the script inside the
-// HTML file and writes this file to dist/index.html
+Now we also need to install html-webpack-plugin, this plugin generates an HTML file, injects the script inside the <br>
+HTML file and writes this file to dist/index.html
 ```javascript
 npm install html-webpack-plugin --save-dev
 ```
 
-// Install webpack-dev-server as a dev-dependency as to auto refresh changes 
+Install webpack-dev-server as a dev-dependency as to auto refresh changes 
 ```javascript
 npm install webpack-dev-server --save-dev
 ```
-// And change the package.json start script like below:
-//I have added two flags --open and --hot which opens and refreshes the web page whenever any change is made to components
+And change the package.json start script like below: <br>
+I have added two flags --open and --hot which opens and refreshes the web page whenever any change is made to components
 ```javascript
 "start": "webpack-dev-server --mode development --open --hot"
 "build": "webpack --mode production"
 ```
-//Now run the below command in the terminal:
+Now run the below command in the terminal:
 ```javascript
 npm start
 ```
-// And for build run below command
+And for build run below command
 ```javascript
 npm run build
 ```
