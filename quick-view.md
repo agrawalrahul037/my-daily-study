@@ -80,7 +80,7 @@ module.exports = {
     })
   ]
  };
-
+```
 Here babel-loader is used to load our JSX/JavaScript files and css-loader is used to load and bundle all of the CSS files <br>
 into one file and style-loader will add all of the styles inside the style tag of the document.
 ```javascript
