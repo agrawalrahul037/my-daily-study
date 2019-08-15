@@ -18,10 +18,11 @@ First we import bootstrap resources in index.js
 ```javascript
 import 'bootstrap/dist/css/bootstrap.min.css';
 ```
-use bootstrap classes inside that
-Start node server
+use bootstrap classes inside that <br>
+Start node server <br>
+```javascript
 npm start
-
+```
 # setting up new react project using webpack and babel 
 make any project folder
 ```javascript
