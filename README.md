@@ -1,5 +1,12 @@
-![image](https://user-images.githubusercontent.com/10609318/63157358-62cdd600-c034-11e9-9aad-81694a938f49.png)
-https://user-images.githubusercontent.com/10609318/63157358-62cdd600-c034-11e9-9aad-81694a938f49.png
+# Visual studio code open file always in new tab
+ -> Go to VS Code <br>
+ -> Go to file -> Preferences -> Settings <br>
+ -> Search "workbench.editor.enablePreview" on top of search bar <br>
+ -> By default checkbox will be selected, Un-check that checkbox <br>
+ -> There is no need to save <br>
+ -> Now it will work <br>
+ 
+ 
 
 # API Call in React
 https://alligator.io/react/axios-react/ <br>
