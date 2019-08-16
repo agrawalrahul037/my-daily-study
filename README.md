@@ -5,6 +5,7 @@
  -> By default checkbox will be selected, Un-check that checkbox <br>
  -> There is no need to save <br>
  -> Now it will work <br>
+ ![image](https://user-images.githubusercontent.com/10609318/63158202-5ba7c780-c036-11e9-9d44-8dfb8f460946.png)
  
  
 
