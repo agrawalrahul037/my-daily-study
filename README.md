@@ -1,6 +1,5 @@
 # Important youtube channels and website links for front end developers
 Thapa Technical <br>
----------------
 https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA/playlists
 
 CODERS NEVER QUIT  <br>
