@@ -1,3 +1,12 @@
+# Important youtube channels and website links for front end developers
+Thapa Technical <br>
+---------------
+https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA/playlists
+
+CODERS NEVER QUIT  <br>
+-----------------
+https://www.youtube.com/channel/UCM-4HE0R3iLxKB7qaq1bskw/playlists
+
 # Visual studio code open file always in new tab
  -> Go to VS Code <br>
  -> Go to file -> Preferences -> Settings <br>
