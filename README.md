@@ -31,7 +31,7 @@ https://medium.com/@ruthmpardee/passing-data-between-react-components-103ad82ebd
 https://www.javascriptstuff.com/component-communication/
 
 #### Making mock Api 
-https://www.mockable.io/ 
+https://www.mocky.io/ 
 
 #### git code commit command
 git add . <br>
