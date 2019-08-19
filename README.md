@@ -1,4 +1,4 @@
-## Hosting static website on github || hosting free static site || host static website on github using free domain
+### Hosting static website on github || hosting free static site || host static website on github using free domain
 https://www.youtube.com/watch?v=GvmDmDRnvEk&list=PLB97yPrFwo5jIbkSg_9WouQTniSb4eVmU
 
 # Important youtube channels and website links for front end developers
