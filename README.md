@@ -1,14 +1,14 @@
-### Hosting static website on github || hosting free static site || host static website on github using free domain
+#### Hosting static website on github || hosting free static site || host static website on github using free domain
 https://www.youtube.com/watch?v=GvmDmDRnvEk&list=PLB97yPrFwo5jIbkSg_9WouQTniSb4eVmU
 
-# Important youtube channels and website links for front end developers
+#### Important youtube channels and website links for front end developers
 Thapa Technical <br>
 https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA/playlists
 
 CODERS NEVER QUIT <br>
 https://www.youtube.com/channel/UCM-4HE0R3iLxKB7qaq1bskw/playlists
 
-# Visual studio code open file always in new tab
+#### Visual studio code open file always in new tab
  -> Go to VS Code <br>
  -> Go to file -> Preferences -> Settings <br>
  -> Search "workbench.editor.enablePreview" on top of search bar <br>
@@ -19,18 +19,18 @@ https://www.youtube.com/channel/UCM-4HE0R3iLxKB7qaq1bskw/playlists
  
  
 
-# API Call in React
+#### API Call in React
 https://alligator.io/react/axios-react/ <br>
 https://jsonplaceholder.typicode.com/users
 
-# Share Data between component in React
+#### Share Data between component in React
 https://medium.com/@ruthmpardee/passing-data-between-react-components-103ad82ebd17
 https://www.javascriptstuff.com/component-communication/
 
-# Making mock Api 
+#### Making mock Api 
 https://www.mockable.io/ 
 
-# git code commit command
+#### git code commit command
 git add . <br>
 git commit -m "write comment here" <br>
 git push origin <br>
@@ -51,15 +51,15 @@ Git fetch: when you do a git fetch, it gets all the changes from the remote repo
 
 
 
-# mkdir creating problem
+#### mkdir creating problem
 when we use mkdir -p src/js/constants it will show error "The syntax of the command is incorrect." (forward slash will give error in windows) <br>
 So use backslash it will work in windows like- mkdir -p src\js\constants 
 
-# How can I create an empty .html and .js file in windows command line?
+#### How can I create an empty .html and .js file in windows command line?
 type NUL > test.html <br>
 type NUL > test.js
 
-# Deploy build folder on xampp
+#### Deploy build folder on xampp
 
 C:\xampp\tomcat\webapps\build <br>
 
@@ -86,27 +86,27 @@ JSON should be like this before making build <br>
 }
 ```
 
-# Deploy code on local node server and test build
+#### Deploy code on local node server and test build
 
 npm install -g serve   <br>
 serve -s build  <br>
 
 <img src="./images/node-local-server.PNG" alt="node local server screen"/>
 
-# Add image in README.md file
+#### Add image in README.md file
 
 ```json
 ![local-node-server-image](https://github.com/agrawalrahul037/my-daily-study/blob/master/images/node-local-server.PNG "Optional title")
 
 <img src="./images/node-local-server.PNG" alt="node local server screen"/>
 ```
-# change default 3000 port in create-react-app
+#### change default 3000 port in create-react-app
 
 we need to change in package.json and we will set port here
 
 "start": "set PORT=3001 && react-scripts start",
 
-# Some Daily used command to work with command prompt in windows
+#### Some Daily used command to work with command prompt in windows
 ```javascript
 mkdir "folder name" \\ creating folder
 cd "folder name"   \\ Go inside that folder
