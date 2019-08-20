@@ -140,6 +140,7 @@ Sapient <br>
 Paytm <br>
 Google <br>
 Facebook <br>
+Nagarro
 
 ### Others Company with Normal package
 TCS <br>
