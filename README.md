@@ -119,3 +119,32 @@ type nul >> your_file.txt //creating new file
 >   Creates a new file
 >>  Preserves content of the file 
 ```
+### Good Company for interview and here you will got good package
+EY
+PWC
+KPMG
+Deloitte
+Mc kinsey
+Bain
+Tower Reasearch
+Ciena
+Uhg
+Rbs
+Expedia
+SAMSUNG
+Gartnar
+Cienmence
+Goibibo and Make my trip
+American Express
+Sapient
+Paytm
+Google
+Facebook
+
+### Others Company with Normal package
+TCS
+IBM
+WIPRO
+INFOSYS
+TECH MAHINDRA
+HCL
