@@ -1,3 +1,8 @@
+# Using webpack config while i debug code on source tab then original JavaScript is not showing,
+You need to just add below config setting in webpack.config.js file
+```javascript
+devtool: "source-map",
+```
 # Use bootstrap 4 in our react webpack babel project
 
 first setup your project using @setting up new react project using webpack and babel  mentioned below <br>
@@ -289,4 +294,9 @@ https://www.mocky.io/
        })
     })
    
+--------------------------------------------------------------------------------------------------------------------
+For Above code and solution I took help from so many internet resource and my friends <br>
+Special Thank to <br>
+-> Indrajeet Gupta <br>
+-> Piyush Rathi
 
