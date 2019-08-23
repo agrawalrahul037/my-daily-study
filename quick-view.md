@@ -34,8 +34,6 @@ ReactDOM.render(<TodoApp />, document.querySelector("#app"))
   }
 ```
 
-
-### Example- with callback
 # Using webpack config while i debug code on source tab then original JavaScript is not showing,
 You need to just add below config setting in webpack.config.js file
 ```javascript
