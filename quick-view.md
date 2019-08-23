@@ -1,3 +1,41 @@
+# After setting value from setState(). Value is not updated
+For resolve that issue you need to use callbacks
+#### Without using callbacks 
+```javascript
+class TodoApp extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+    	item: "pankaj"
+    }
+  }
+  componentDidMount(){
+   this.setState({item:"nitin"});
+   console.log(this.state.item);  // output will be "pankaj"
+  }
+  render() {
+    return (
+      <div>
+        <h2>Todos:</h2>
+          {this.state.item}
+      </div>
+    )
+  }
+}
+ReactDOM.render(<TodoApp />, document.querySelector("#app"))
+```
+
+#### When We are using callbacks then
+```javascript
+  componentDidMount(){
+   this.setState({item:"nitin"},()=>{
+   console.log(this.state.item);  // output will be "nitin"
+   });
+  }
+```
+
+
+### Example- with callback
 # Using webpack config while i debug code on source tab then original JavaScript is not showing,
 You need to just add below config setting in webpack.config.js file
 ```javascript
