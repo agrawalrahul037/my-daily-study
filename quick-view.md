@@ -1,6 +1,6 @@
 # After setting value from setState(). Value is not updated
 For resolve that issue you need to use callbacks
-#### Without using callbacks 
+#### Problem->Without using callbacks 
 ```javascript
 class TodoApp extends React.Component {
   constructor(props) {
@@ -25,7 +25,7 @@ class TodoApp extends React.Component {
 ReactDOM.render(<TodoApp />, document.querySelector("#app"))
 ```
 
-#### When We are using callbacks then
+#### Solution->When We are using callbacks then
 ```javascript
   componentDidMount(){
    this.setState({item:"nitin"},()=>{
