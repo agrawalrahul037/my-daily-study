@@ -1,3 +1,26 @@
+# 3 ways to write functions for connect method
+#### First way
+```javascript
+function mapStateToProps(state) {
+    return {
+        countryList: state.editUserReducer.countryList
+    };
+}
+```
+#### Second way
+```javascript
+const mapStateToProps = (state) =>({
+    countryList: state.editUserReducer.countryList
+})
+```
+#### Third way
+```javascript
+const mapStateToProps = (state) => {
+    return {
+        countryList: state.editUserReducer.countryList
+    }
+}
+```
 # After setting value from setState(). Value is not updated
 For resolve that issue you need to use callbacks
 #### Problem->Without using callbacks 
