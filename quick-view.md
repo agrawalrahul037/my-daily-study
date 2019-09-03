@@ -1,3 +1,21 @@
+# Arrow function not working with webpack and babel
+### change code in .babelrc file
+```javascript
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    [
+      "@babel/plugin-proposal-class-properties",
+      {
+        "loose": true
+      }
+    ]
+  ]
+}
+```
 # 3 ways to write functions for connect method
 #### First way
 ```javascript
