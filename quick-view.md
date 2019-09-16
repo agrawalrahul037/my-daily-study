@@ -370,7 +370,18 @@ https://www.mocky.io/
         data: response.data
        })
     })
-   
+    
+ # post or get data using axios OR passing data using axios
+ ```javascript
+   axios({
+     method: 'post',
+     url: countryAPIURL,
+     data: payload,
+     headers: {
+         'Content-Type': 'application/json'
+     	},
+    })
+  ``` 
 --------------------------------------------------------------------------------------------------------------------
 For Above code and solution I took help from so many internet resource and my friends <br>
 Special Thank to <br>
