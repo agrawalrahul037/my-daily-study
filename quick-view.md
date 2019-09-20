@@ -1,3 +1,6 @@
+### Use ternary operator in react className OR use variables inside react className
+className={`badge dropdown-toggle ${user.status === "ACTIVE" ? "badge-success" : "badge-danger"}`}
+
 # Arrow function not working with webpack and babel
 ### change code in .babelrc file
 ```javascript
