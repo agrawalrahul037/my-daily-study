@@ -1,4 +1,11 @@
-### Use ternary operator in react className OR use variables inside react className
+# passing parameter in reactjs
+```javascript
+    updateUserStatus = (status, userId) => {
+        console.log(status, userId)
+    }
+onClick={() => this.updateUserStatus('ACTIVE', user.userId)}
+```
+# Use ternary operator in react className OR use variables inside react className
 className={`badge dropdown-toggle ${user.status === "ACTIVE" ? "badge-success" : "badge-danger"}`}
 
 # Arrow function not working with webpack and babel
