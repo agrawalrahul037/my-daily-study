@@ -1,3 +1,7 @@
+# Enable jest with vscode OR jest intellisense not working with vscode
+```javascript
+npm install --save-dev @types/jest
+```
 # passing parameter in reactjs
 ```javascript
     updateUserStatus = (status, userId) => {
