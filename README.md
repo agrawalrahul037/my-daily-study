@@ -1,7 +1,7 @@
 #### free udemy videos download
-https://www.learningcrux.com/
-https://www.howtofree.org
-https://www.real.discount
+https://www.learningcrux.com/ <br>
+https://www.howtofree.org <br>
+https://www.real.discount <br>
 
 #### Best react snippet with visual studio code and es6
 https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets
