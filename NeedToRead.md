@@ -1,3 +1,17 @@
+### Why below code output will be undefined
+```javascript
+    [1, 2, 3, 4].forEach(function (i) {
+      console.log(i);
+    });
+    function asycForEach(arr, cb) {
+      arr.forEach(function () {
+        setTimeout(cb, 0);
+      })
+    }
+    asycForEach([1, 2, 3, 4], function (i) {
+      console.log(i);
+    })
+```
 # Need deep knowledge of below topics
 1- webpack <br>
 2- babel <br>
