@@ -28,7 +28,8 @@ https://www.youtube.com/channel/UCM-4HE0R3iLxKB7qaq1bskw/playlists
  -> Now it will work <br>
  ![image](https://user-images.githubusercontent.com/10609318/63158202-5ba7c780-c036-11e9-9d44-8dfb8f460946.png)
  
- 
+#### Deploy your json and get url 
+http://myjson.com/
 
 #### API Call in React
 https://alligator.io/react/axios-react/ <br>
